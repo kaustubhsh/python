@@ -1,0 +1,9 @@
+import mysql.connector as mysql
+conn=mysql.connect(user='',password='',host='',database='')
+
+cursor=mysql.cursor()
+
+#fetchall // To display the sql queries
+#commit // final wirte operation(changes are saved)
+
+conn.close()

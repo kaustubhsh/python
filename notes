@@ -1,0 +1,11 @@
+802.11 --> wireless
+802.15 --> bluetooth
+802.314 -> ethernet cable
+
+
+TCP --> Relible , connection oriented
+UDP --> UnRelible , connectionless
+
+
+SCM --> Source Code Manager
+VCS --> Version Control System  (Git --> distributed VCS) 

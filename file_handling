@@ -1,0 +1,24 @@
+File and Directory handling
+import os
+
+os.mkdir(#path)
+os.rmdir(#path)
+
+
+
+f=open('hi.txt','w') #// the file made will be overwrite and the data of that file would be deleted
+f.write('hello')
+f.write('ok google')
+f.close()
+f=open('hi.txt','r') // read mode
+f.read() #path can be given in function parameters
+f.readline() # line by line reading
+f.seek()
+f.tell()
+
+
+# another way of doing file handling
+# indentation required
+with open('jj.txt','r') as f:
+	print f.read()
+# close automated 
