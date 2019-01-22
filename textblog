@@ -1,0 +1,5 @@
+from textblob import TextBlob
+
+
+#saving the text that come from twitter in a file and passit to TextBlob and store it in a string(analysis)
+#check=analysis.sentiment 
